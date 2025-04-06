@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'Sarkari_Job.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'database',
+        'NAME': 'Sarkari_Job',
         'USER': 'admin',
         'PASSWORD': 'Depak29896#',
-        'HOST': 'database.cn80i6y407rl.eu-north-1.rds.amazonaws.com',
+        'HOST': 'database-2.cn80i6y407rl.eu-north-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
